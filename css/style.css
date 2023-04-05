@@ -4,6 +4,10 @@
     margin: 0;
     padding: 0;
     font-family:'Montserrat', sans-serif; 
+   
+}
+body{
+    background-color:#f2eab7; 
 }
 .barra{
     background-color:#c01b1b;
@@ -11,13 +15,13 @@
     position: fixed;
     z-index:100;
     width: 100%;
-    height: 70px;
+    height: 90px;
     display: flex;
     justify-content:space-between; 
 }
 
 .logo{
-    width: 150px;
+    width: 220px;
 }
 
 .menu__lista{
@@ -29,25 +33,39 @@
 }
 .menu__link {
     color: aliceblue;
-    font-size: 12px;
+    font-size: 14px;
     padding: 10px;
     margin-right: 20px;
     text-decoration: none;
 } 
 .menu__link:hover {   
     font-size: 15px;   
-    color:wheat;
-   text-decoration:underline;    
+    color:black;
+    text-decoration:underline;    
 }
+/*Style Banner principal*/
+.banner{
+    padding-top: 90px; 
+   
+    
+}
+.banner-img{
+    padding-bottom: 20px;
+    height:100%;
+    width: 100%; 
+ 
+}
+.banner-text{
+    text-align: center;
+}
+/*Style-cards*/
 .cards{
-   padding-top: 80px;
-   background-color: antiquewhite;   
+   padding-top: 60px;     
 }
 .card-titulo{
     text-align: center;
     color: black;
     font-size: 20px;
-
 }
 .card-container{
     margin: 30px 60px 30px;
@@ -57,32 +75,31 @@
     justify-content: space-evenly;
 }
 .card{   
-    width: 230px;
-    height: 300px;
+    width: 250px;
+    height: 280px;
     border: 1px solid black;
     border-radius: 5px;
     background-color:white;
     margin-left: 10px;
-    box-shadow: 2px 2px 2px black;
+    box-shadow: 4px 4px black;
     margin:20px
 }
+.card:hover{
+  transform: scale(1.1);
+
+}
 .card-img{
-    width: 230px;
-    height:180px;
+    width: 250px;
+    height:150px;
 }
 .card-fig{
     display: flex;
     flex-direction: column;
     align-items: center;    
 }
-.card-titulo{
-    color:black;
-    font-size:18px;    
-}
 span{
     color:black;
-    font-size: 12px;
-  
+    font-size: 12px;  
 }
 .card-condicion{
     color: red;
@@ -91,7 +108,8 @@ span{
     background-color: red;
     color:white;
     width: 80px;
-    height: 25px;
+    height: 35px;
+    padding: 8px;
     margin-top: 10px;
     border-radius: 5px;
     box-shadow: 5px;
