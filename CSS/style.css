@@ -149,3 +149,15 @@ h3{
     font-weight: 500;
     margin-bottom: 15px;
 }
+
+.imagcorta{
+    height: 0px;
+    margin-left: 650px;
+}
+
+.boton-enviar{
+    font-size: 14px; 
+    margin-left: 2px;
+    background-color: red;
+    color:white;
+}
