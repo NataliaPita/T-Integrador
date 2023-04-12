@@ -1,28 +1,4 @@
-/*
-let nombres = [];
-let nombre = '';
-let salir = "";
-
-while (salir != "cancelar") {
-
-    let opcion = parseInt(prompt('Elegir opción:  1 Ingresar nombre  ó  2 Salir'));
-    switch (opcion) {
-        case 1:
-            nombre = prompt('Ingrese nombre:');
-            break;
-        case 2:
-            salir = prompt('Confirma que desea salir? Para salir, escriba la palabra "cancelar"');
-            alert('Nombres ingresados: ' + nombres);
-            break;
-        default:
-            alert('Opción no válida!');
-    }
-    
-    nombres.push(' ' + nombre);
-}
-*/
-
-
+// Detalle de Gastos
 
 
 function gastos() {
