@@ -20,7 +20,7 @@ main {
     padding-right: 2rem;
     margin: 00rem;
     border: 00rem;
-    background-color: #272727;
+    background-image: url(./img/fondo4.jpg);
     display: flex;
     justify-content: space-around;
     align-items: center;
