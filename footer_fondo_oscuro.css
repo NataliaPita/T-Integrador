@@ -1,0 +1,49 @@
+/*HEADER*/
+
+
+/*MAIN*/
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*FOOTER*/
+.caja {
+    width: 100%;
+    height: auto;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: 00rem;
+    border: 00rem;
+    background-color: #272727;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.texto {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff; 
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    background: none;
+    color: #fff;
+    border: 0px;
+}
+
+
+
+
+h6 {
+    color: #999;
+}
